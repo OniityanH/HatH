@@ -9,9 +9,9 @@ using namespace std;
 int main () {
 
   std::string line_;
-  ifstream file_("C:\\Users\\Allen Zhu\\Desktop\\P.txt");
-  ofstream file("C:\\Users\\Allen Zhu\\Desktop\\Final.txt",ios::app);
-  ofstream file1("C:\\Users\\Allen Zhu\\Desktop\\P.txt",ios::app);
+  ifstream file_("D:\\Prepared.txt");
+  ofstream file("D:\\Final.txt",ios::app);
+  ofstream file1("D:\\Prepared.txt",ios::app);
   SYSTEMTIME sys;
   GetLocalTime( &sys );
   int number=0;
